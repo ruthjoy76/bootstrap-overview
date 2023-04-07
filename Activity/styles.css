@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+}
+
+.container {
+  display: flex;
+  height: 80vh;
+  background-color: white;
+  border: 0.25px solid grey;
+}
+
+.main {
+  background: lightgrey;
+  width: 100%;
+}
+.main h1 {
+  font-size: 24px;
+  padding-top: 60px;
+  padding-left: 20px;
+}
+
+.main h2 {
+  font-size: 24px;
+  padding: 20px 20px;
+ 
+}
+
+.form h1 {
+  font-size: 24px;
+  text-transform: capitalize;
+}
+
+.form {
+  padding-left: 20px;
+  text-transform: uppercase;
+  background: white;
+}
+
+.Button {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.Button h3{
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
